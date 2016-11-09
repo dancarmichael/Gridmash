@@ -1,0 +1,317 @@
+h1{
+	font-family: Impact;
+}
+
+#push{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+
+#jstest{
+	font-family: Tahoma;
+	font-size: 16px;
+	float: right;
+	position: relative;
+	display: none;
+}
+
+#pull{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: relative;
+	font-family: Georgia;
+}
+
+#form{
+	position: relative;
+	border: 5px dashed black;
+	height: 100px;
+	width: 100px;
+}
+
+#form > input{
+
+	background-color: green;
+
+}
+
+#test{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin-top: 100px;
+	border: 5px dashed black;
+
+}
+
+#test:hover{
+	background-color: green;
+
+}
+
+#audio3{
+	height: 30px;
+	width: 100px;
+	
+	position: relative;
+}
+
+#sound3{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	margin-top: -25px;
+
+}
+
+#grid{
+	float: right;
+	height: 800px;
+	width: 800px;
+	border: 5px dashed black;
+	display: inline-block;
+	
+
+}
+
+#grid > div{
+	position: relative;
+	height: 20%;
+	width: 20%;
+	border: 3px dashed black;
+	margin: 10px;
+}
+
+/*
+#grid > div:hover{
+	background-color: green;
+}
+*/
+
+#grid > div > input{
+	width: 50%;
+	height: 200px;
+	position: relative;
+	float: right;
+	margin-right: 160px;
+	margin-top: -20px;
+	
+
+}
+
+
+#grid > div > button{
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	transition: background-color 0.5s;
+	
+}
+
+#audio4[type=file]{
+	height: 50px;
+	width: 50px;
+	border: 2px dotted black;
+	background-color: white;
+}
+
+#audio5[type=file]{
+	height: 50px;
+	width: 50px;
+	border: 2px dotted black;
+}
+
+#audio6[type=file]{
+	height: 50px;
+	width: 50px;
+	border: 2px dotted black;
+	background-color: white;
+}
+
+#audio7[type=file]{
+	height: 50px;
+	width: 50px;
+	border: 2px dotted black;
+	background-color: white;
+	
+	float: right;
+}
+
+#mate{
+	display: none;
+}
+
+#mate2{
+	display: none;
+}
+
+#mate3{
+	display: none;
+}
+
+#hit:hover{
+	background-color: red;
+}
+
+#hit2:hover{
+	background-color: green;
+}
+
+#volume{
+	display: block;
+	position: relative;
+	margin-top: 25px;
+	width: 50px;
+	height: 50px;
+}
+
+#volume2{
+	display: block;
+	position: relative;
+	margin-top: 25px;
+
+}
+
+#square2{
+	height: 200px;
+	width: 200px;
+	
+	/* border: 5px dashed black; */
+	display: inline-block;
+	position: relative;
+}
+
+#square2 > button{
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	transition: background-color: 1s;
+	box-shadow: 1px 1px 5px #888888;
+
+}
+
+#square2 > form{
+	margin-left: 170px;
+	display: block;
+	position: absolute;
+	margin-top: -165px;
+}
+
+#square3 > form{
+	margin-left: 170px;
+	display: block;
+	position: absolute;
+	margin-top: -165px;
+}
+
+#square4 > form{
+	margin-left: 170px;
+	display: block;
+	position: absolute;
+	margin-top: -165px;
+}
+
+#slider2{
+	position: absolute;
+	display: block;
+	border: 2px dotted black;
+	height: 50px;
+	width: 50px;
+	
+}
+
+#slider{
+	display: block;
+	border: 2px dotted black;
+	height: 50px;
+	width: 50px;
+}
+
+#slider3{
+	display: block;
+	border: 2px dotted black;
+	height: 50px;
+	width: 50px;
+}
+
+#form4{
+	
+	display: inline-block;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: -175px;
+}
+
+#form5{
+	
+	display: inline-block;
+	
+	
+}
+
+#form6{
+
+}
+
+#space{
+	
+
+}
+
+#loop{
+	height: 50px;
+	width: 50px;
+	
+}
+
+#speed{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	margin-top: 55px;
+}
+
+.dropbtn{
+	background-color: #4CAF50;
+	color: white;
+	
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	border: 2px dotted black;
+
+}
+
+.dropbtn:hover, .dropbtn:focus{
+	background-color: #3e8e41;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 50px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1;}
+
+.show {display: block;}
+

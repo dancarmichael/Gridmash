@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Test Page </title>
+			<link rel="stylesheet" href="tstyles/test2.css" type="text/css">
+			<link rel="stylesheet" href="tstyles/jquery-ui.css" type="text/css">
+
+			
+		</head>
+			<body>
+				<div> 
+					<h1> Test </h1>
+				</div>
+
+				<div id="button">
+					<button id="push"> Push to Play </button>
+
+					<button id="pull"> Pull! </button>
+
+				</div>
+
+
+
+				<div id="jstest">
+					<p> This paragraph should fade in </p>
+				</div>
+
+				<!--
+				<div class="audio">
+		<audio id="myTune">
+			<source src="audio/01-beach-sluts.mp3" type="audio/mpeg">
+		</audio>
+	-->
+		<div id="form">
+			<form id="form1">
+				
+					<legend> Input </legend>
+					<input type="file" id="audio" onchange="playFile(this)" />
+					<audio id="sound" controls></audio>
+				
+			</form>
+			<form id="form2">
+				<legend> Input 2 </legend>
+				<input type="file" id="audio2" onchange="playFile2(this)" />
+				<audio id="music" controls></audio>
+			<button id="hm"> Submit </button>
+		</form>
+		</div>
+
+		<div id="test">
+			<input type="file" id="audio3" onchange="playFile3(this)" />
+			<audio id="sound3" controls></audio>
+		</div>
+
+		<div id="grid">
+			<div id="square">
+				<button id="hit"></button>
+				<
+
+				
+				
+
+			</div>
+
+			<!-- This is the button/loadin function call set -->
+
+			<form id="form4">
+			<input type = "file" id="audio4" onchange="playFile4(this)" value="File!" />
+				<audio id="mate" controls></audio>
+				<!-- <input id="volume" type="range" min="0" max="10" value="5" onchange="vol(this)" /> -->
+				<div id="slider"></div>
+				<button type="button" id="loop"></button>
+			</form>
+
+			<div id="square2">
+				<button id="hit2"></button>
+				
+				<form id="form5">
+				<input type="file" id="audio5" onchange="playFile5(this)" />
+				<audio id="mate2" controls></audio>
+				<!--<input id="volume2" type="range" min="0" max="10" value="5" onchange="vol2(this)" > -->
+			
+				<div id="slider2"></div>
+				<button type="button" onclick="setPlaySpeed()" id="speed">
+			</form>
+
+			</div>
+
+			<div id="square3">
+				<button id="hit3"></button>
+
+				<form id="form6">
+					<input type="file" id="audio6" onchange="playFile6(this)" />
+				<audio id="mate3" controls></audio>
+
+				<div id="slider3"></div>
+				<div class="dropdown">
+					<button type="button" onclick="myFunction()" class="dropbtn">Dropdown</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="square4">
+				<button id="hit4"></button>
+
+				<form id="form7">
+					<input type="file" id="audio7" onchange="playFile7(this)" />
+				<audio id="mate4" controls></audio>
+				<div id="slider4"></div>
+				
+		</div>
+
+	
+
+			<script src="tscripts/jquery.js"></script>
+			<script src="tscripts/testscript.js"></script>
+			<script src="tscripts/jquery-ui.js"></script>
+			</body>
+</html>
